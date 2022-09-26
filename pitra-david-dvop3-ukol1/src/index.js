@@ -11,7 +11,8 @@ var car = {
     Year: "2022"
 }
 
-const paramBrand = console.log(car.Brand)
+//const paramBrand = 
+console.log(car.Brand)
 const paramModel = console.log(car.Model)
 const paramYear = console.log(car.Year)
 var randomNo = Math.floor(Math.random() * 555)
