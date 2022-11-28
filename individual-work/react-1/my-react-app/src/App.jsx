@@ -43,72 +43,60 @@ function App() {
             </h1>
           </div>
           <hr />
-          <div class="main-content">
-            <PortfolioItem img="../src/IMG_1763.JPG" title="Portfolio Title" text="Lorem Ipsum"></PortfolioItem>
-            
-            <div class="content-3">
-              <div class="content-3-image">
-                <img src="./IMG_1763.JPG" alt="image" />
-              </div>
-              <div class="content-3-title">
-                <h3>Project Title</h3>
-              </div>
-              <div class="content-3-info">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio dolor omnis, aut corrupti laborum provident culpa
-                  aspernatur perferendis ex dolores magni corporis inventore
-                  possimus sunt, odit rerum unde dolorem. Sit?
-                </p>
-              </div>
+
+          <PortfolioItem
+            img="../src/IMG_1763.JPG"
+            title="Portfolio Title"
+            text="Lorem Ipsum"
+          ></PortfolioItem>
+
+          
+          <div class="content-4">
+            <div class="content-4-image">
+              <img src="./IMG_1763.JPG" alt="image" />
             </div>
-            <div class="content-4">
-              <div class="content-4-image">
-                <img src="./IMG_1763.JPG" alt="image" />
-              </div>
-              <div class="content-4-title">
-                <h3>Project Title</h3>
-              </div>
-              <div class="content-4-info">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio dolor omnis, aut corrupti laborum provident culpa
-                  aspernatur perferendis ex dolores magni corporis inventore
-                  possimus sunt, odit rerum unde dolorem. Sit?
-                </p>
-              </div>
+            <div class="content-4-title">
+              <h3>Project Title</h3>
             </div>
-            <div class="content-5">
-              <div class="content-5-image">
-                <img src="./IMG_1763.JPG" alt="image" />
-              </div>
-              <div class="content-5-title">
-                <h3>Project Title</h3>
-              </div>
-              <div class="content-5-info">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio dolor omnis, aut corrupti laborum provident culpa
-                  aspernatur perferendis ex dolores magni corporis inventore
-                  possimus sunt, odit rerum unde dolorem. Sit?
-                </p>
-              </div>
+            <div class="content-4-info">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dolor omnis, aut corrupti laborum provident culpa
+                aspernatur perferendis ex dolores magni corporis inventore
+                possimus sunt, odit rerum unde dolorem. Sit?
+              </p>
             </div>
-            <div class="content-6">
-              <div class="content-6-image">
-                <img src="./IMG_1763.JPG" alt="image" />
-              </div>
-              <div class="content-6-title">
-                <h3>Project Title</h3>
-              </div>
-              <div class="content-6-info">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio dolor omnis, aut corrupti laborum provident culpa
-                  aspernatur perferendis ex dolores magni corporis inventore
-                  possimus sunt, odit rerum unde dolorem. Sit?
-                </p>
-              </div>
+          </div>
+          <div class="content-5">
+            <div class="content-5-image">
+              <img src="./IMG_1763.JPG" alt="image" />
+            </div>
+            <div class="content-5-title">
+              <h3>Project Title</h3>
+            </div>
+            <div class="content-5-info">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dolor omnis, aut corrupti laborum provident culpa
+                aspernatur perferendis ex dolores magni corporis inventore
+                possimus sunt, odit rerum unde dolorem. Sit?
+              </p>
+            </div>
+          </div>
+          <div class="content-6">
+            <div class="content-6-image">
+              <img src="./IMG_1763.JPG" alt="image" />
+            </div>
+            <div class="content-6-title">
+              <h3>Project Title</h3>
+            </div>
+            <div class="content-6-info">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio dolor omnis, aut corrupti laborum provident culpa
+                aspernatur perferendis ex dolores magni corporis inventore
+                possimus sunt, odit rerum unde dolorem. Sit?
+              </p>
             </div>
           </div>
         </div>
