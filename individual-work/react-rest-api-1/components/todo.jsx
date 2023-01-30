@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TODO = (props) => {
+const Todo = (props) => {
     return (
         <>
             <h1>
@@ -16,4 +16,4 @@ const TODO = (props) => {
     );
 };
 
-export default TODO;
+export default Todo;
