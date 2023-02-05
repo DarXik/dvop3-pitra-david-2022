@@ -2,17 +2,17 @@ import React from 'react';
 
 const Todo = (props) => {
     return (
-        <>
+        <div className={props.myClass}>
             <h1>
-                {props.title}
+               <span className={props.mySpan}>Title:</span> {props.title}
             </h1>
             <h2>
-                {props.userid}
+                 <span className={props.mySpan}>UserID:</span> {props.userid}
             </h2>
             <p>
-                {props.id}
+                <span className={props.mySpan}>ID:</span> {props.id}
             </p>
-        </>
+        </div>
     );
 };
 
