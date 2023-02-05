@@ -15,11 +15,11 @@ function App() {
     // console.log(responseJson);
     setLoading(false);
   };
-  var barvicky = [];
-  data.map((item) => {
-    barvicky.push(item.id);
-    setColor(barvicky)
-  });
+//   var barvicky = [];
+//   data.map((item) => {
+//     barvicky.push(item.id);
+//     setColor(barvicky)
+//   });
   useEffect(() => {
     fetchData();
   }, []);
@@ -33,14 +33,13 @@ function App() {
         ) : (
           <div>
             {data ? (
-              <div className="grid lg:grid-cols-3 grid-cols-1 gap-y-[2em] gap-x-[2em] mx-[10%] mt-6 mb-6">
+              <div className="grid lg:grid-cols-3 grid-cols-1 gap-y-[3em] gap-x-[3em] mx-[10%] mt-6 mb-6">
                 {data.map((item) => (
                   <Todo
-                    color={`border-[#${Math.floor(item.id * 16777215).toString(
-                      16
-                    )}]`}
+                    color={"border-green-500"}         
+                    mySpan={"font-bold"}
                     key={item.id}
-                    title={color[item.id]}
+                    title={item.title}
                     userid={item.userId}
                     id={item.id}
                   ></Todo>
