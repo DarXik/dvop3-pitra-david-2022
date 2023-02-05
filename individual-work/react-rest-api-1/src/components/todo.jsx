@@ -3,7 +3,7 @@ import TailwindColor from "@videsk/tailwind-random-color";
 
 const Todo = (props) => {
   
- 
+  console.log(props.color)
   return (
     <div className={props.color + " border-4 lg:text-lg p-2 "}>
       <h1>
